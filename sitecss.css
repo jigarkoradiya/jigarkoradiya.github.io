@@ -1,0 +1,60 @@
+    /********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy.
+No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: Jigarkumar Koradiya    
+Dated: 21/03/2020
+********************************************************************/ 
+
+div.main-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    background-color: #cccccc;
+}
+
+div.main-container div{
+    float: left;
+    border: 2px solid black;
+	padding: 10px 40px;
+    width: 415px;
+    height: 300px;
+}
+
+h3:hover {
+    color: rgb(0,0,255);
+}
+
+p:hover {
+    color:  #ff5349;
+}
+
+.myButton {
+	padding:16px 31px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	background-color:#44c767;
+    border-radius:28px;
+    cursor:pointer;
+	text-decoration:none;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    div{
+        width: 100%;
+    }
+  }
